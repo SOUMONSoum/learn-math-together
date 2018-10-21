@@ -29,13 +29,13 @@ h2 {
 .button, .button:visited {
   /* font-family: 'Moul', cursive; */
   font-family: 'Battambang', cursive;
-  font-weight: bold;
-  font-size: 20px;
+  /* font-weight: bold; */
+  font-size: 16px;
   background: #27ae60;
   border-radius: 8px;
   color: #FFFFFF;
   text-decoration: none;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   display: inline-block;
 }
 
