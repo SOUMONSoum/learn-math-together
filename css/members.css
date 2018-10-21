@@ -1,0 +1,75 @@
+.members{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 40px;
+  justify-content: center;
+}
+.members figure {
+  list-style: none;
+  width: 100%;
+  margin-top: 20px;
+  flex-direction: row;
+  display: flex;
+}
+.members figure img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-right: 1rem;
+}
+
+.members figure .name {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.members figure .title {
+  display: block;
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.members figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+ul.members {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  border: 1px solid #e5e8ed;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(3,27,78,.06);
+}
+
+ul.members > li {
+  padding: 1rem 1.5rem;
+  line-height: 1.5rem;
+  border-bottom: 1px solid rgba(3,27,78,.06);
+  background: #fff;
+}
+
+ul.members > li > span {
+  display: block;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .members figure {
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .members figure img {
+    margin-right: 0rem;
+  }
+}

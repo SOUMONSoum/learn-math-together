@@ -1,0 +1,25 @@
+
+#services ul li {
+  list-style: none;
+  background: #CCCCCC;
+  border-radius: 10px;
+  border-left: #00ba54 6px solid;
+  border-right: #00ba54 6px solid;
+  box-shadow: 4px 4px 4px #AAAAAA;
+}
+
+#services li{
+  margin: 10px;
+}
+
+#services ul h3 {
+  color: #00ba54;
+}
+
+#services ul p {
+  padding: 0px 40px 5px 40px;
+}
+
+#services h3 {
+  padding: 5px 40px 0px 40px;
+}
