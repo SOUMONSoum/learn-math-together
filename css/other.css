@@ -2,7 +2,7 @@ header {
   padding: 1rem;
   text-align: center;
   background: #27ae60;
-  border-bottom: #aaa 2px solid;
+  /* border-bottom: #aaa 2px solid; */
 }
 
 #logo {
@@ -15,16 +15,16 @@ header {
 
 #showcase {
   background: #222;
-  color: #FFFFFF;
   height: 400px;
   text-align: center;
+  color: #fff;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
 }
 
 #showcase h3 {
-  font-size: 1.5rem;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
@@ -37,13 +37,14 @@ header {
   margin-top: 1rem;
 }
 
-.showcase-title{
+.showcase-title {
   font-size: 2rem;
 }
 
 .integral {
   color: #FFFFFF;
   font-family: sans-serif;
+  display: inline-block;
   font-weight: bold;
   font-size: 40px;
   animation: blink 1s linear infinite;
@@ -55,23 +56,6 @@ header {
   }
 }
 
-/* .cursor{
-  width: 10px;
-  background: #FFFFFF;
-  animation: blink 1s linear infinite;
-  margin-left: 5px;
-  display: inline-block;
-}
-@keyframes blink {
-  50% { opacity: 0; }
-} */
-@media only screen and (min-width: 600px) {
-  #logo {
-    width: 100%;
-    text-align: center;
-  }
-}
-
 footer {
   background: #27ae60;
 }
@@ -80,4 +64,10 @@ footer {
   text-align: center;
   color: #FFFFFF;
   font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  /* body {
+    display: none;
+  } */
 }
